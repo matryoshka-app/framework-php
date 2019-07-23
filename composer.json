@@ -1,0 +1,27 @@
+{
+    "name": "matryoshka-app/framework-php",
+    "type": "library",
+    "description": "SDK for creating a great app on matryoshka platform",
+    "keywords": ["matryoshka","php","sdk"],
+    "homepage": "https://matryoshka.app/",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Roman Chizhikov",
+            "email": "chizhikov.ok@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "matryoshka-app/sdk-php-core": "^0.0",
+        "vlucas/phpdotenv": "^3.4",
+        "j4mie/idiorm": "*",
+        "ext-curl": "*",
+        "ext-mysqli": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Matryoshka\\Handlers\\": "Handlers/"
+        }
+    }
+}
